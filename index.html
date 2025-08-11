@@ -90,15 +90,17 @@
         }
 
         document.getElementById("tidak-baikan").addEventListener("click", function() {
-            document.getElementById("video-kenangan").style.display = "block";
-            setTimeout(function() {
-                window.location.href = window.location.href; // Reload halaman
-            }, 5000);
-        });
+        document.getElementById("video-kenangan").style.display = "block";
+        setTimeout(function() {
+            window.location.href = window.location.href; // Reload halaman
+        }, 20000); // Mengubah 5000 menjadi 20000 milidetik (20 detik)
+    });
 
-        document.getElementById("iya-baikan").addEventListener("click", function() {
-            window.open("https://wa.me/6287779668055?text=Love%20u%20Sayang%20%3C3", "_blank");
-        });
+    document.getElementById("iya-baikan").addEventListener("click", function() {
+        window.open("https://wa.me/6287779668055?text=Love%20u%20Sayang%20%3C3", "_blank");
+    });
+
+        
     </script>
 </body>
 </html>
