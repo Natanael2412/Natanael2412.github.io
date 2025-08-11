@@ -41,7 +41,7 @@ section {
 .slideshow-container {
     position: relative;
     max-width: 100%;
-    padding-bottom: 56.25%; /* Rasio 16:9 */
+    padding-bottom: 25%; /* Rasio 16:9 */
     height: 0;
     overflow: hidden;
 }
